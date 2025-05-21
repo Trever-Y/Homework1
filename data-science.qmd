@@ -1,0 +1,44 @@
+---
+title: "Data Science and Statistics"
+author: "Trever Yoder"
+format: html
+editor: visual
+---
+
+## Task 1: Answering Questions About Data Science
+
+-   In a general sense, I think data science is about extracting information from data in order for it to be useful.
+-   Differences
+    -   Data scientists are typically focused on solving business problems while statisticians often focus on science
+    -   Statisticians are more focused on modeling
+        -   Statisticians bring data to models while data scientists bring models to their data
+-   Similarities
+    -   Both work with data and models
+-   I view myself more as a data scientist than a statistician, but as I learn more about models and designing experiments, I feel more confident viewing myself as a statistician.
+
+## Task 2: Running Code
+
+Below is the R code to create an object called y:
+
+```{r}
+y <- density(iris$Petal.Width)
+```
+
+Now I am going to determine its class, type and view a compact display of the structure of y while hiding the code:
+
+```{r}
+#| echo: false
+
+class(y)
+typeof(y)
+str(y)
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
