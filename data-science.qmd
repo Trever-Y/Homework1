@@ -34,7 +34,7 @@ typeof(y)
 str(y)
 ```
 
-Finally, we will create a plot of y while hiding the code:
+Next, we will create a plot of y while hiding the code:
 
 ```{r}
 #| echo: false
