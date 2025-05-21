@@ -24,21 +24,20 @@ Below is the R code to create an object called y:
 y <- density(iris$Petal.Width)
 ```
 
-Now I am going to determine its class, type and view a compact display of the structure of y while hiding the code:
+Now we will determine its class, type, and view a compact display of the structure of y:
 
 ```{r}
-#| echo: false
-
 class(y)
+
 typeof(y)
+
 str(y)
 ```
 
-You can add options to executable code like this
+Finally, we will create a plot of y while hiding the code:
 
 ```{r}
 #| echo: false
-2 * 2
+plot(y)
 ```
 
-The `echo: false` option disables the printing of code (only output is displayed).
